@@ -98,7 +98,6 @@ If you are working with `CoOP`, please cite the following paper:
 ```bibtex
 @inproceedings{strunz2021coop,
     author = {Strunz, Martin and Heinovski, Julian and Dressler, Falko},
-    note = {to appear},
     title = {{CoOP: V2V-based Cooperative Overtaking for Platoons on Freeways}},
     publisher = {IEEE},
     address = {Indianapolis, IN},
