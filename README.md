@@ -107,6 +107,8 @@ If you are working with `CoOP`, please cite the following paper:
 }
 ```
 
+PDF and Details can be found at [https://www2.tkn.tu-berlin.de/bib/strunz2021coop/](https://www2.tkn.tu-berlin.de/bib/strunz2021coop/).
+
 ## License
 ```
 # Copyright (c) 2021 Martin Strunz <strunz@campus.tu-berlin.de>
