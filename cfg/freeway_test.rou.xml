@@ -1,0 +1,51 @@
+<!--
+# Copyright (c) 2021 Martin Strunz <strunz@campus.tu-berlin.de>
+# Copyright (c) 2021 Julian Heinovski <heinovski@ccs-labs.org>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<routes>
+
+	<!-- Vehicle types -->
+	<vType id="Car" accel="2.9" decel="7.5" maxSpeed="44.4"
+		   length="4.7" emissionClass="HBEFA3/PC" laneChangeModel="SL2015"
+		   carFollowModel="Krauss" sigma="0.5" tau="1.8" minGap="2.5"
+		   speedDev="0.1" speedFactor="1.2" vClass="passenger"
+		   latAlignment="center"
+		   color="100,149,237"/>
+	<vType id="NoGapCar" accel="2.9" decel="7.5" maxSpeed="30.0"
+		   length="4.7" emissionClass="HBEFA3/PC" laneChangeModel="SL2015"
+		   carFollowModel="Krauss" sigma="0.5" tau="1.8" minGap="2.5"
+		   speedDev="0.0" speedFactor="1.0" vClass="passenger"
+		   latAlignment="center"
+		   color="100,149,237"/>
+	<vType id="Truck" accel="1.1" decel="4.0" maxSpeed="22.2"
+		   length="16.5" emissionClass="HBEFA3/HDV" laneChangeModel="SL2015"
+		   carFollowModel="Krauss" sigma="0.5" tau="1.8" minGap="2.5"
+		   speedDev="0.1" speedFactor="1.2" vClass="trailer"
+		   color="255,0,0" />
+	<vType id="PlatoonCar" accel="2.9" decel="7.5" maxSpeed="44.4"
+		   length="4.7" emissionClass="HBEFA3/PC" laneChangeModel="SL2015"
+		   carFollowModel="CC" sigma="0.5" tau="1.0" minGap="0"
+		   speedDev="0.1" speedFactor="1.2" vClass="passenger"
+		   color="100,149,237" lanesCount="3"
+		   omegaN="0.2" xi="1" c1="0.5"
+		   ploegKp="0.2" ploegKd="0.7" ploegH="0.5"/>
+
+	<!-- Routes -->
+	<route id="freeway" edges="freeway exit" />
+	<route id="main" edges="freeway exit" />
+
+</routes>

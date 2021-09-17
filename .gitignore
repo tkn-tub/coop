@@ -1,0 +1,7 @@
+.idea
+__pycache__
+venv
+/tests/test_traffic/.pytest_cache/
+/tests/test_state_transfer/.pytest_cache/
+/results_old
+results.zip
