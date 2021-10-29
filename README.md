@@ -98,8 +98,10 @@ If you are working with `CoOP`, please cite the following paper:
 ```bibtex
 @inproceedings{strunz2021coop,
     author = {Strunz, Martin and Heinovski, Julian and Dressler, Falko},
+    doi = {10.1109/ITSC48978.2021.9565122},
     title = {{CoOP: V2V-based Cooperative Overtaking for Platoons on Freeways}},
     publisher = {IEEE},
+    isbn = {978-1-7281-9142-3},
     address = {Indianapolis, IN},
     booktitle = {24th IEEE International Conference on Intelligent Transportation Systems (ITSC 2021)},
     month = {9},
